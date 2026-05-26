@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Glowing Background Decorative Blobs -->
   <div class="bg-blobs">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
@@ -16,6 +15,13 @@
     <header class="app-header">
       <h1 class="greeting-title">Hello, Explorer</h1>
     </header>
+
+    <form class="task-form" id="todo-form" autocomplete="off" onsubmit="event.preventDefault();">
+      <div class="input-wrapper">
+        <input type="text" id="todo-input" class="task-input" placeholder="Add a new task..." maxlength="120" required>
+      </div>
+      <button type="submit" class="add-button" id="add-task-btn">Add</button>
+    </form>
   </main>
   <script src="app.js"></script>
 </body>

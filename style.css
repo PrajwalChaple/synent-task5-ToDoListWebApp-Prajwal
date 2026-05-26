@@ -78,4 +78,34 @@ body {
   border: 1px solid var(--card-border);
   border-radius: 30px;
   padding: 35px;
+}/* Add Task Input Form */
+.task-form {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+
+.input-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.task-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 16px 20px;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.add-button {
+  background: var(--primary-glow);
+  color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  padding: 0 22px;
+  cursor: pointer;
 }
