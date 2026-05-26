@@ -1,5 +1,5 @@
 /**
- * Taskflow - Premium Vanilla JS To-Do List Web App
+ * NovaFlow - Premium Vanilla JS To-Do List Web App
  * Designed with modern Dribbble aesthetics, sleek animations, and full LocalStorage state sync.
  */
 
@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- LocalStorage Integration ---
   function loadTasksFromStorage() {
     try {
-      const storedTasks = localStorage.getItem('taskflow_tasks');
+      const storedTasks = localStorage.getItem('novaflow_tasks');
       tasks = storedTasks ? JSON.parse(storedTasks) : [
         // Default tasks for a premium onboarding feel if storage is empty
-        { id: '1', text: 'Welcome to Taskflow! ✨', completed: false },
+        { id: '1', text: 'Welcome to NovaFlow! ✨', completed: false },
         { id: '2', text: 'Click the circle to mark a task as completed', completed: true },
         { id: '3', text: 'Try deleting this task using the trash button', completed: false }
       ];
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Safe LocalStorage Write ---
   function saveTasksToStorage() {
     try {
-      localStorage.setItem('taskflow_tasks', JSON.stringify(tasks));
+      localStorage.setItem('novaflow_tasks', JSON.stringify(tasks));
     } catch (e) {
       console.error('Error writing to localStorage', e);
     }
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Refresh layout state on storage change (tabs in sync)
     window.addEventListener('storage', (e) => {
-      if (e.key === 'taskflow_tasks') {
+      if (e.key === 'novaflow_tasks') {
         loadTasksFromStorage();
         render();
       }

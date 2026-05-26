@@ -1,6 +1,6 @@
-# Taskflow ⚡
+# NovaFlow ⚡
 
-Taskflow is a premium, Dribbble-inspired dark glassmorphic To-Do list web application. Built purely using semantic **HTML5**, modern **CSS3**, and **Vanilla JavaScript**, it offers a visually striking and interactive productivity environment.
+NovaFlow is a premium, Dribbble-inspired dark glassmorphic To-Do list web application. Built purely using semantic **HTML5**, modern **CSS3**, and **Vanilla JavaScript**, it offers a visually striking and interactive productivity environment.
 
 ## ✨ Premium Features
 * **Stunning Glassmorphism Card:** Powered by semi-transparent borders and deep background blur filters.
