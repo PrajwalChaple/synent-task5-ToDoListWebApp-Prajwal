@@ -14,7 +14,6 @@
   <main class="app-container">
     <header class="app-header">
       <h1 class="greeting-title">Hello, Explorer</h1>
-      <!-- Progressive Task Statistics Banner -->
       <div class="progress-panel" id="progress-widget">
         <div class="progress-info">
           <span class="progress-text">Task Progress</span>
@@ -29,6 +28,12 @@
       </div>
       <button type="submit" class="add-button" id="add-task-btn">Add</button>
     </form>
+
+    <nav class="filter-tabs" aria-label="Task filters">
+      <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+      <button class="filter-btn" data-filter="pending" id="filter-pending">Pending</button>
+      <button class="filter-btn" data-filter="completed" id="filter-completed">Completed</button>
+    </nav>
 
     <section class="tasks-container" id="tasks-list" role="list">
       <!-- items -->

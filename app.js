@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressRatio = document.getElementById('progress-ratio');
 
   let tasks = [];
+  let currentFilter = 'all';
 
   function loadTasksFromStorage() {
     const storedTasks = localStorage.getItem('taskflow_tasks');
