@@ -108,4 +108,26 @@ body {
   border-radius: 18px;
   padding: 0 22px;
   cursor: pointer;
+}/* Task List Container */
+.tasks-container {
+  max-height: 380px;
+  overflow-y: auto;
+  margin-top: 15px;
+}
+
+/* Custom Checkbox Design */
+.checkbox-container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 7px;
 }
