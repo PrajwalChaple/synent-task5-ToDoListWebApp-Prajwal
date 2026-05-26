@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Glowing Background Decorative Blobs -->
   <div class="bg-blobs">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
@@ -14,30 +15,7 @@
   <main class="app-container">
     <header class="app-header">
       <h1 class="greeting-title">Hello, Explorer</h1>
-      <div class="progress-panel" id="progress-widget">
-        <div class="progress-info">
-          <span class="progress-text">Task Progress</span>
-          <span class="progress-sub" id="progress-ratio">0 of 0 completed</span>
-        </div>
-      </div>
     </header>
-
-    <form class="task-form" id="todo-form" autocomplete="off" onsubmit="event.preventDefault();">
-      <div class="input-wrapper">
-        <input type="text" id="todo-input" class="task-input" placeholder="Add a new task..." maxlength="120" required>
-      </div>
-      <button type="submit" class="add-button" id="add-task-btn">Add</button>
-    </form>
-
-    <nav class="filter-tabs" aria-label="Task filters">
-      <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
-      <button class="filter-btn" data-filter="pending" id="filter-pending">Pending</button>
-      <button class="filter-btn" data-filter="completed" id="filter-completed">Completed</button>
-    </nav>
-
-    <section class="tasks-container" id="tasks-list" role="list">
-      <!-- items -->
-    </section>
   </main>
   <script src="app.js"></script>
 </body>
