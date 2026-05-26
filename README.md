@@ -11,14 +11,3 @@ NovaFlow is a premium, Dribbble-inspired dark glassmorphic To-Do list web applic
 * **Task Filter Modes:** Navigate cleanly between **All**, **Pending**, and **Completed** tasks.
 * **Time-Reactive Greetings:** Dynamic salutations based on the user's current hours (Morning, Afternoon, Evening, Night).
 * **LocalStorage Sync:** Auto-saves your tasks so they persist perfectly upon refreshing or closing the browser.
-
-## 🚀 How to Run Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/PrajwalChaple/synent-task5-ToDoListWebApp-Prajwal.git
-   ```
-2. Double-click `index.html` to open it instantly in any web browser!
-
-## 🌐 Live Deployment
-The project is hosted live on GitHub Pages:
-👉 **[https://prajwalchaple.github.io/synent-task5-ToDoListWebApp-Prajwal/](https://prajwalchaple.github.io/synent-task5-ToDoListWebApp-Prajwal/)**
